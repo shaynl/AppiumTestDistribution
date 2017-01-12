@@ -25,6 +25,8 @@ public class ExtentManager {
     public static CommandPrompt commandPrompt = new CommandPrompt();
     public static InputStream input = null;
 
+    //test
+
     public synchronized static ExtentReports getExtent() {
         if (extent == null) {
             try {
